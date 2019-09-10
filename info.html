@@ -1,120 +1,70 @@
-<DOCTYPE html>
-<html>
-    <head>
-        <!--Information-->
-        <title>Over ons</title>
-        <link rel='icon' href='http://r74n.com/images/emotes/HYPERLUL.png'>
-        <link rel="stylesheet" type="text/css" href="css/mijncss.css">
-        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-        <!--<h1><span>Hello guys</span></h1>-->
-        <style>
-        #stroopwafelman {
-          float: left;
-        }
+<html lang="en" dir="ltr">
 
-        .frontpagetext {
-          float: left;
-          padding: 10px;
-        }
-        </style>
-    </head>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Sienke Website</title>
+    <link href="https://fonts.googleapis.com/css?family=Literata&display=swap" rel="stylesheet">
+</head>
 
-    <body>
+<style>
+.logo {
+  text-align: center;
+  color: #0E2F2E;
+  font-size: 46;
+  display: block;
+  width: 100%;
+  top: 100px;
+  transition: 0.3s;
+}
 
-        <img id="achtergrond" src="img/stroopwafelpatroon1.jpg">
+nav {
+  margin-top: 20px;
+}
 
-        <div class="alles">
-            <header>
-                <!--Navbar-->
-                <nav>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="info.html">Info</a></li>
-                        <li><a href="store.html">Store</a></li>
-                        <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Winkelwagen</a></li>
+#fotodinges {
+  display: block;
+  width: 400px;
+}
+</style>
 
-                        <!--<div class="logo">-->
-                        <!--<a href="#"><img src="img/4head.jpg"></a>-->
-                        <a id="logo" href="index.html">De Stroopwafelman</a>
-                    </ul>
-                </nav>
+<body>
 
-                <!--Banner-->
-                <div class="banner"></div>
-            </header>
+    <img id="achtergrond" src="img/clouds.png">
 
-            <article class="frontpage">
-                <img id="stroopwafelman" src="img/stroopwafels2.jpg">
-                <div class="frontpagetext">
-                    <p><strong>Over ons: </strong><br>Welkom op <i>De Stroopwafelman</i>, de best stroopwafels op de deepweb!<br>
-                    Sinds onze voorouders in 1830 het geheime stroopwafelrecept ontwikkelden,<br>
-                    heeft onze familie stroopwafels in het hart gesloten.<br>
-                    Nu, al bijna tweehonderd jaar later, is <i>De Stroopwafelman</i> nog steeds een welvarend bedrijf.<br>
-                    Wij zijn Yannick Zuurbier en Bram van Zelst, beide 15,<br>
-                    en wij namen twee jaar geleden het stokje over van onze vaders.<br>
-                    Wij gingen verder dan alleen de originele stroopwafels,<br>
-                    en ontwikkelden meerdere nieuwe producten zoals de choco-stroopwafel en het stroopwafel-broodbeleg<br>
-                    De liefde voor stroopwafels is ons vanaf onze geboorte aangeleerd, en zullen wij ook doorgeven aan onze kinderen.<br><br>
-                    <i>De Stroopwafelman,</i> wafels met de makkers<br> Sinds 1830</p>
-                    <br>
-                    <br>
-                    <p><b>Programma van Eisen</b><br>
-                    Met de opdrachtgever is overlegd, dat deze website er moet voor zorgen dat je zin krijgt in stroopwafels<br>
-                    De stroopwafels moeten er van af spatten, op elke pagina moeten er meerdere zichtbaar zijn<br>
-                    Ook moet het kleurenschema er bij passen<br>
-                    <br>
-                    De navigatiebar moet klein maar overzichtelijk zijn, en met niet meer dan 4 pagina's<br>
-                    Onderin de footer moet te zien zijn wie de website gemaakt hebben, en ook een contactsectie<br>
-                    De website moet goed werken, zowel voor pc als voor mobile<br>
-                    <br>
-                    De mappen waarin de website gemaakt is moeten overzichtelijk zijn<br>
-                    Alle afbeeldingen moeten in 1 map, zodat er makkelijk naar te linken is vanuit de html<br>
-                    <br>
-                    Als het mogelijk is moet er ook met javascript een winkelwagen systeem gemaakt worden<br>
-                    Als dit niet het geval is, mag dit ook volgend jaar gebeuren<br>
-
-                </div>
-            </article>
-
-            <footer>
-                <!--<ul class="footerbar">
-                    <li><button class="collapsible">Contact</button>
-                    <div class="content">
-                        <p>Mail: yrz@ziggo.nl</p>
-                        <p>Tel: 06 1270 2102</p>
-                    </div></li>
-                    <li><button class="collapsible">Test</button>
-                    <div class="content">
-                        <p>AAAAAAAAAAAAAAAA</p>
-                        <p>Tel: 06 1270 2102</p>
-                    </div></li>
-                    <li><button class="collapsible">Contact</button>
-                    <div class="content">
-                        <p>bbbbbbbbbbbbbbbb</p>
-                        <p>Tel: 06 1270 2102</p>
-                    </div></li>
-                </ul>-->
-                <ul class="footerbar">
-                    <li><a>Contact:<br>yrz@ziggo.nl<br>06 1270 2102</a></li>
+    <div class="alles">
+        <header>
+            <!--Navbar-->
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="info.html">Info</a></li>
                 </ul>
-                    <p id="copyright">Website gemaakt door Yannick Zuurbier en Bram van Zelst, V4A</p>
-            </footer>
-        </div>
-        <script>
-          var coll = document.getElementsByClassName("collapsible");
-          var i;
+            </nav>
+        </header>
 
-          for (i = 0; i < coll.length; i++) {
-            coll[i].addEventListener("click", function() {
-              this.classList.toggle("active");
-              var content = this.nextElementSibling;
-              if (content.style.display === "block") {
-                content.style.display = "none";
-              } else {
-                content.style.display = "block";
-              }
-            });
-          }
-        </script>
-    </body>
+
+            <a class="logo" href="index.html">SIENKE RIETEMA</a>
+
+
+        <article class="frontpage">
+          <img id="fotodinges" src="img/dinges.jpeg">
+          <div class="frontpagetext">
+            <p>Hier kan je je eigen tekst invoeren
+            <br>Hier kan ook een foto naast eventueel
+            </p>
+          </div>
+        </article>
+
+        <footer>
+            <ul class="footerbar">
+                <li><a>Contact:<br>Hier kan je iets neerzetten<br>En hier nog iets</a></li>
+            </ul>
+            <p id="copyright">Website gemaakt door Yannick Zuurbier</p>
+        </footer>
+    </div>
+</body>
+
 </html>

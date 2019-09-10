@@ -1,100 +1,52 @@
-<DOCTYPE html>
-<html>
-    <head>
-        <!--Information-->
-        <title>Hoofdpagina</title>
-        <link rel='icon' href='http://r74n.com/images/emotes/HYPERLUL.png'>
-        <link rel="stylesheet" type="text/css" href="css/mijncss.css">
-        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-        <!--<h1><span>Hello guys</span></h1>-->
-        <style>
-        #stroopwafelman {
-          float: left;
-        }
+<html lang="en" dir="ltr">
 
-        .frontpagetext {
-          float: left;
-          padding: 10px;
-        }
-        </style>
-    </head>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Sienke Website</title>
+    <link href="https://fonts.googleapis.com/css?family=Literata&display=swap" rel="stylesheet">
+</head>
 
-    <body>
+<style>
+nav {
+  margin-top: 50px;
+}
+</style>
 
-        <img id="achtergrond" src="img/stroopwafelpatroon1.jpg">
+<body>
 
-        <div class="alles">
-            <header>
-                <!--Navbar-->
-                <nav>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="info.html">Info</a></li>
-                        <li><a href="store.html">Store</a></li>
-                        <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Winkelwagen</a></li>
+    <img id="achtergrond" src="img/clouds.png">
 
-                        <!--<div class="logo">-->
-                        <!--<a href="#"><img src="img/4head.jpg"></a>-->
-                        <a id="logo" href="index.html">De Stroopwafelman</a>
-                    </ul>
-                </nav>
-
-                <!--Banner-->
-                <div class="banner"></div>
-            </header>
-
-            <article class="frontpage">
-                <img id="stroopwafelman" src="img/stroopwafels.jpg">
-                <div class="frontpagetext">
-                    <p>Welkom op <i>De Stroopwafelman</i>, de best stroopwafels op de deepweb!</p>
-                    <p><strong><br>Hoe het werkt</strong><br></p>
-                    <p>Stap 1. Selecteer jouw favoriete stroopwafels</p>
-                    <p>Stap 2. Voeg de stroopwafels toe aan de winkelwagen</p>
-                    <p>Stap 3. Klik op de winkelwagen</p>
-                    <p>Stap 4. Rond de bestelling af</p>
-                    <p>Stap 5. Genieten maar!</p>
-                </div>
-            </article>
-
-            <footer>
-                <!--<ul class="footerbar">
-                    <li><button class="collapsible">Contact</button>
-                    <div class="content">
-                        <p>Mail: yrz@ziggo.nl</p>
-                        <p>Tel: 06 1270 2102</p>
-                    </div></li>
-                    <li><button class="collapsible">Test</button>
-                    <div class="content">
-                        <p>AAAAAAAAAAAAAAAA</p>
-                        <p>Tel: 06 1270 2102</p>
-                    </div></li>
-                    <li><button class="collapsible">Contact</button>
-                    <div class="content">
-                        <p>bbbbbbbbbbbbbbbb</p>
-                        <p>Tel: 06 1270 2102</p>
-                    </div></li>
-                </ul>-->
-                <ul class="footerbar">
-                    <li><a>Contact:<br>yrz@ziggo.nl<br>06 1270 2102</a></li>
+    <div class="alles">
+        <header>
+            <!--Navbar-->
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="info.html">Info</a></li>
                 </ul>
-                    <p id="copyright">Website gemaakt door Yannick Zuurbier en Bram van Zelst, V4A</p>
-            </footer>
-        </div>
-        <script>
-          var coll = document.getElementsByClassName("collapsible");
-          var i;
+            </nav>
+        </header>
 
-          for (i = 0; i < coll.length; i++) {
-            coll[i].addEventListener("click", function() {
-              this.classList.toggle("active");
-              var content = this.nextElementSibling;
-              if (content.style.display === "block") {
-                content.style.display = "none";
-              } else {
-                content.style.display = "block";
-              }
-            });
-          }
-        </script>
-    </body>
+
+            <a class="logo" href="info.html">SIENKE RIETEMA</a>
+
+
+        <!--<article class="frontpage">
+          <div class="frontpagetext">
+            <p>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</p>
+          </div>
+        </article>-->
+
+        <footer>
+            <ul class="footerbar">
+                <li><a>Contact:<br>Hier kan je iets neerzetten<br>En hier nog iets</a></li>
+            </ul>
+            <p id="copyright">Website gemaakt door Yannick Zuurbier</p>
+        </footer>
+    </div>
+</body>
+
 </html>
