@@ -15,6 +15,18 @@
   background-position: center;
 }
 
+.row {
+  display: flex;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.row > .col {
+  margin: 0 1rem;
+}
+
 h1 {
   font-family: 'Literata', sans-serif;
   border-left: 9px inset aqua;
@@ -108,9 +120,7 @@ nav > ul > li > a:hover {
 
 .frontpage {
   padding: 20px;
-  text-align: center;
   top: 150px;
-  border-radius: 20px;
   overflow: auto;
   position: absolute;
   display: block;
@@ -118,9 +128,9 @@ nav > ul > li > a:hover {
 }
 
 .frontpagetext {
-  text-align: center;
+  text-align: left;
   font-size: 20;
-  color: darkslategrey;
+  color: black;
 }
 
 /* Footer */
