@@ -1,0 +1,37 @@
+@import "https://www.leafal.io/assets/css/reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body {
+  background-color: slategrey;
+}
+
+/*Navbar*/
+.navbar {
+  color: black;
+  list-style: none;
+  text-align: center;
+  padding: 40px 0 40px 0;
+  width: 100%;
+  overflow: hidden;
+}
+
+.navbar > ul > li {
+  display: inline-block;
+  padding: 0 25px 0 25px
+}
+
+.navbar > ul > li > a {
+  text-decoration: none;
+  color: white;
+  font-family: Roboto;
+  font-size: 25px;
+  opacity: 60%;
+  transition: 0.2s;
+}
+
+.navbar > ul > li > a:hover {
+  color: lightgrey;
+  opacity: 40%;
+}
